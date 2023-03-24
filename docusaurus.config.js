@@ -63,6 +63,18 @@ const config = {
     ({
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
+      algolia: {
+        // The application ID provided by Algolia
+        appId: 'GZL1JW7VKN',
+
+        // Public API key: it is safe to commit it
+        apiKey: '53bcb4d4215d570b87d070964412dc0c',
+
+        indexName: 'Crawler Netlify - liwenkai',
+
+        // Optional: see doc section below
+        // contextualSearch: true,
+      },
       navbar: {
         title: "文凯",
         logo: {
