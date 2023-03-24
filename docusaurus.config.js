@@ -70,7 +70,7 @@ const config = {
         // Public API key: it is safe to commit it
         apiKey: '53bcb4d4215d570b87d070964412dc0c',
 
-        indexName: 'Crawler Netlify - liwenkai',
+        indexName: 'netlify_4de10815-4de9-4ca6-a51f-c0119b01474c_main_all',
 
         // Optional: see doc section below
         // contextualSearch: true,
