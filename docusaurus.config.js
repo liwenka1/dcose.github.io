@@ -29,7 +29,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
-    locales: ["en", 'zh-Hans'],
+    locales: ["en", "zh-Hans"],
   },
 
   presets: [
@@ -41,15 +41,13 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/liwenka1/my-website/blob/main",
+          editUrl: "https://github.com/liwenka1/my-website/blob/main",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/liwenka1/my-website/blob/main",
+          editUrl: "https://github.com/liwenka1/my-website/blob/main",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -65,12 +63,12 @@ const config = {
       image: "img/docusaurus-social-card.jpg",
       algolia: {
         // The application ID provided by Algolia
-        appId: 'GZL1JW7VKN',
+        appId: "GZL1JW7VKN",
 
         // Public API key: it is safe to commit it
-        apiKey: '53bcb4d4215d570b87d070964412dc0c',
+        apiKey: "53bcb4d4215d570b87d070964412dc0c",
 
-        indexName: 'netlify_4de10815-4de9-4ca6-a51f-c0119b01474c_main_all',
+        indexName: "netlify_4de10815-4de9-4ca6-a51f-c0119b01474c_main_all",
 
         // Optional: see doc section below
         // contextualSearch: true,
@@ -84,14 +82,14 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "intro",
+            docId: "study",
             position: "left",
-            label: "Tutorial",
+            label: "study",
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            type: 'localeDropdown',
-            position: 'right',
+            type: "localeDropdown",
+            position: "right",
           },
           {
             href: "https://github.com/facebook/docusaurus",
@@ -107,8 +105,8 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
-                to: "/docs/intro",
+                label: "Study",
+                to: "/docs/study",
               },
             ],
           },
@@ -116,16 +114,20 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "About Me",
+                to: "/about",
               },
               {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                label: "Bilibili",
+                href: "https://space.bilibili.com/86699862",
+              },
+              {
+                label: "Juejin",
+                href: "https://juejin.cn/user/1821240769658471",
               },
               {
                 label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                href: "https://twitter.com/liwenka1",
               },
             ],
           },
@@ -134,11 +136,11 @@ const config = {
             items: [
               {
                 label: "Blog",
-                to: "/blog",
+                href: "https://liwenka1.netlify.app/",
               },
               {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/liwenka1",
               },
             ],
           },
