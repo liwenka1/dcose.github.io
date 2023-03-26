@@ -1,0 +1,22 @@
+---
+id: document
+title: 前端文档
+# hide_title: false
+# hide_table_of_contents: false
+# sidebar_label: Markdown :)
+# custom_edit_url: https://github.com/facebook/docusaurus/edit/master/docs/api-doc-markdown.md
+slug: /document
+keywords:
+  - JavaScript
+  - dom
+  - html
+  - browser
+  - frontend
+# image: https://i.imgur.com/mErPwqL.png
+---
+
+DOM，全称是 Document Object Model，文档对象模型，它是指在浏览器中，以对象形式呈现页面文档，然后可以使用 JavaScript 对其进行操纵。我们常见的页面文档就是 HTML 页面，在内存中表示为 document 对象。（左边放 HTML 代码，右边放 DOM 对象树） 因为 DOM 中的元素以树状结构表示层级关系，所以又叫 DOM 树，每个元素都是 DOM 树的节点（Node）。DOM 除了能表示 HTML 文档外，还能表示 XML 等其它树状文档。
+
+那么为什么要使用 DOM 呢？我们知道 HTML 是静态的页面，只能提供内容的展示，不能动态的去修改它或者处理事件，而使用 DOM 提供的属性和方法，就可以通过编写 JavaScript 代码来实现动态的功能。（处理事件、改变HTML 属性和内容、添加动画加上示例；，这里录一遍真实浏览器操作的视频好了，没加 js 和加了 js 之后的）要注意，DOM API 并不属于 JavaScript 语言本身，而是浏览器实现了这些 API 并赋予了开发者使用 JavaScript 操纵 DOM 的能力。（加上浏览器和 JS 的关系图）
+
+在 DOM 中，每个 HTML 元素都继承了一些特定的类型，这些类型会提供操作 HTML 元素的 API，了解它们之后就能知道如何操纵 DOM 元素了。比较重要的类型有：

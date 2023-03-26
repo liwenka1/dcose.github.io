@@ -81,12 +81,16 @@ const config = {
         },
         items: [
           {
-            type: "doc",
-            docId: "study",
+            to: "docs/monogatari",
             position: "left",
-            label: "study",
+            label: "monogatari",
           },
           { to: "/blog", label: "Blog", position: "left" },
+          {
+            to: "docs/resource",
+            position: "left",
+            label: "resource",
+          },
           {
             type: "localeDropdown",
             position: "right",
